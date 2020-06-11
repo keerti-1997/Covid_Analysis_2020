@@ -1,14 +1,14 @@
 # Covid_Analysis_2020
 ## An attempt to visualize Covid data of the US from April 2020 to June 2020.
-This work is submitted to the Spark+AI Summit 2020. 
+
 Currently, US is the country with the highest number of coronavirus cases in the whole world. This notebook visualises the trends and patterns of the COVID-19 disease in the United States from 12th April 2020 to 9th June 2020. We use the Facebook's prophet module to forecast number of confirmed cases in different regions of the country.
 
 ### Dataset 
 John Hopkins Dataset - https://github.com/CSSEGISandData/COVID-19
 
 ### Features
-Province_State - The name of the State within the USA.
-Country_Region - The name of the Country (US).
+Province_State - The name of the State within the USA.@cr
+Country_Region - The name of the Country (US).@cr
 Last_Update - The most recent date the file was pushed.
 Lat - Latitude.
 Long_ - Longitude.
