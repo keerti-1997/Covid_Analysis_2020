@@ -1,7 +1,7 @@
 # Covid_Analysis_2020
 ## An attempt to visualize Covid data of the US from April 2020 to June 2020.
 
-Currently, US is the country with the highest number of coronavirus cases in the whole world. This notebook visualises the trends and patterns of the COVID-19 disease in the United States from 12th April 2020 to 9th June 2020. We use the Facebook's prophet module to forecast number of confirmed cases in different regions of the country.
+This project is submitted to the SparkAISummit 2020. Currently, US is the country with the highest number of coronavirus cases in the whole world. This notebook visualises the trends and patterns of the COVID-19 disease in the United States from 12th April 2020 to 9th June 2020. We use the Facebook's prophet module to forecast number of confirmed cases in different regions of the country.
 
 ### Dataset 
 John Hopkins Dataset - https://github.com/CSSEGISandData/COVID-19
@@ -28,5 +28,16 @@ Hospitalization_Rate - Total number of people hospitalized * 100/ Number of conf
 
 
 ### Installation
+ 
+```
+pip install fbprophet==0.6
+pip install plotly==4.4.1
+pip install pandas==1.0.4
+pip install numpy==1.18.5
+pip install matplotlib==3.2.1
+pip install -U scikit-learn
+```
+
 
 ### Run the IPython Notebook cells 
+
